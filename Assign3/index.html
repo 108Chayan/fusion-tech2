@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>CHAYAN SAMANTA</h1>
+        <p>WEB DEVELOPER || SOFTWARE ENGINEER</p>
+        
+    </header>
+<br>
+<br>
+    <section id="carousel">
+        <div class="carousel-container">
+            <div class="carousel-slide active">
+                <img src="image1.jpg" alt="Professional Services">
+                <div class="carousel-caption">
+                    <h3>Full stack Web Development</h3>
+                    <p>Using HTML, CSS, JS AND <b>MERN</b> </p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="image 2.jpg" alt="Expert Team">
+                <div class="carousel-caption">
+                    <h3>PYTHON PROGRAMING</h3>
+                    <p>Well skilled with PYTHON Programing.</p>
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <img src="image 3.jpg" alt="Customer Satisfaction">
+                <div class="carousel-caption">
+                    <h3>JAVA PROGRAMING</h3>
+                    <p>Wel known with JAVA programing.</p>
+                </div>
+            </div>
+            <button class="prev">❮</button>
+            <button class="next">❯</button>
+        </div>
+    </section>
+
+    <section id="modal">
+        <button id="open-modal">About Me</button>
+        <div id="modal-window" class="modal">
+            <div class="modal-content">
+                <span class="close">&times;</span>
+                <h2>About Me</h2>
+                <p>I am Chayan Samanta.</p>
+                <p>As a expert in code optimization, software engineering, and net improvement, I craft
+                    efficient, scalable, and person-friendly programs. I excel at optimizing code for
+                    better performance and decreased resource use. With strong software engineering
+                    capabilities, I layout and maintain robust answers for complicated desires.
+                    Proficient in the front-end (HTML, CSS, JavaScript) and back-stop (Node.Js, Python,
+                    Java) technology, I create responsive interfaces and make certain efficient server
+                    overall performance. My collaborative method, dedication to high-quality, and nonstop learning force innovation and success for customers and initiatives.</p>
+            </div>
+        </div>
+    </section>
+<br>
+<br>
+    <section id="registration-form">
+        <center><h2>Register Here</h2></center>
+        <form id="form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
